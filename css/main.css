@@ -1,0 +1,203 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+header{
+    background:url(../img/travelTime.png) no-repeat ;
+    background-position: left center;
+    width: 1440px;
+
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 128px;
+    padding:72px 135px 0 135px ;
+    margin-bottom: 101px;
+}
+.menu li a{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+.menu li a:hover{
+    
+    text-decoration:underline;
+    
+   
+}
+
+.basic_title {
+    color: white;
+    font-size: 96px;
+    font-weight: 700;
+    text-align: center;
+}
+.basic_text {
+    color: white;
+    font-size: 24px;
+    font-weight: 275;
+    
+    text-align: center;
+    width: 749px;
+    margin-left: 346px;
+    margin-right: 345px;
+    margin-bottom: 369px;
+    
+}
+.basic_block_button{
+    padding-bottom: 133px;
+}
+.basic_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #00B43D;
+    box-shadow: 0px 0px 0px 4px #FEE4E2; border-radius: 8px;
+ 
+    border: 1px #00B43D solid;
+    text-align: center;
+ margin-left: 625px;
+ margin-right: 625px;
+
+ 
+}
+.basic_button_inside {
+    color: white;
+    font-size: 24px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 16px 28px;
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background: url(../img/rengtablebackground.png) no-repeat;
+    padding-top: 27px;
+    padding-bottom: 17px;
+ 
+    
+}
+
+.block_img{
+    width: 27.5px;
+    height: 29px;
+}
+.block_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.block_text{
+    color: white;
+    font-size: 32px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 900;
+    line-height: 28px;
+    
+    
+}
+.hero {
+    background: url(../img/travelTime2.png) no-repeat;
+    background-position: right center;
+    width: 1440px;
+    padding-bottom: 133px;
+
+}
+.hero_title {
+  
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 126px;
+    margin-bottom: 54px;
+    
+}
+.card{
+    display: flex;
+    gap: 24px;
+padding-left:44px ;
+padding-right: 44px;
+}
+.cards{
+
+    background: rgba(88.19, 88.19, 88.19, 0.50);
+
+
+}
+.cards_img{
+    padding: 24px;
+}
+h3{
+   
+    padding-left: 24px;
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 6px;
+   
+}
+p{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 24px;
+    width: 244px;
+   line-height: 24px;
+}
+.cards_big_link{
+   
+   
+     padding:32px 24px 24px 200px ;
+ 
+}
+.cards_link {
+    background: rgba(77.56, 77.56, 77.56, 0.45);
+    border-radius: 8px;
+    
+}
+.cards_link a{
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 6px 17px;
+}
+
+.hero2 {
+    background: url(../img/travelTime3.png) no-repeat;
+    background-position: center center;
+    
+}
+.hero2_title {
+    color: white;
+     font-size: 48px;
+     font-weight: 500;
+     padding: 125px 0 64px 150px;
+
+}
+.hero2_text {
+    color: white;
+    font-size: 32px;
+    font-weight: 275;
+    line-height: 50px;
+    padding: 0 155px 120px 120px;
+}
